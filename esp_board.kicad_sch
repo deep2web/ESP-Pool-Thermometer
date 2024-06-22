@@ -2259,6 +2259,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 74.93) (xy 153.67 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631297a8-fc46-4187-b4c3-14cd01bf4f63")
+	)
+	(wire
+		(pts
 			(xy 213.36 119.38) (xy 266.7 119.38)
 		)
 		(stroke
@@ -2276,6 +2286,16 @@
 			(type default)
 		)
 		(uuid "6e823df7-6f57-4bf5-9bb5-32e7518d48a7")
+	)
+	(wire
+		(pts
+			(xy 153.67 55.88) (xy 153.67 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f717cb1-9a4c-4505-87c3-52abd9fcc5a2")
 	)
 	(wire
 		(pts
@@ -2326,6 +2346,16 @@
 			(type default)
 		)
 		(uuid "a0cb10dc-9a85-43eb-85c9-5d7af925b175")
+	)
+	(wire
+		(pts
+			(xy 156.21 55.88) (xy 156.21 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34b5d30-93c8-4219-b8cb-44f46b16bdb8")
 	)
 	(wire
 		(pts
@@ -2506,6 +2536,120 @@
 			(type default)
 		)
 		(uuid "fb20acce-4285-412b-acc9-fad64a539e88")
+	)
+	(global_label "URXD"
+		(shape output)
+		(at 156.21 55.88 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56073525-344c-49a2-b2a0-e2b1eecc6467")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.21 47.8148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UTXD"
+		(shape input)
+		(at 153.67 55.88 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d985bde4-2bc6-4ef8-b059-807c2ec539bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 48.1172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01b53d0f-0261-4ada-9d8e-9a0ca0ffb4b4")
+		(property "Reference" "R1"
+			(at 156.21 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "499Ω"
+			(at 156.21 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.892 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54969b44-da8b-4703-9a48-238601245ac9")
+		)
+		(pin "2"
+			(uuid "40fbca53-7bb5-4b8c-902d-07077f5560e1")
+		)
+		(instances
+			(project "esp_board"
+				(path "/ee45c97c-cf60-4c2a-879f-17c11d9f0e29"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:DS18B20")
