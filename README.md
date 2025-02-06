@@ -7,7 +7,7 @@ Features
 - Deep sleep for extended battery life
 - WiFi data transmission
 - Tasmota and ESPHome compatible
-- 
+  
 Hardware
 - ESP8255 microcontroller
 - DS18B20 temperature sensor
